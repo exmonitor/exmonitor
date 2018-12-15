@@ -4,38 +4,38 @@ with example values
 ## http/https 
 ```json
 {
-	id: 1,
-	port: 443,
-	target: "test.domain.cz",
-	timeout: 5,
-	method: "GET",
-	query: "?var1=value1&var2=value2",
-	postData: [
+	"id": 1,
+	"port": 443,
+	"target": "test.domain.cz",
+	"timeout": 5,
+	"method": "GET",
+	"query": "?var1=value1&var2=value2",
+	"postData": [
 		{
-			name: "var1",
-			value: "value1"
+			"name": "var1",
+			"value": "value1"
 		}
 	],
-	extraHeaders: [
+	"extraHeaders": [
 		{
-			name: "MyHeader",
-			value: "My Value"
+			"name": "MyHeader",
+			"value": "My Value"
 		}		
 	],
-	authEnabled: true,
-	authUsername: "admin",
-	authPassword: "adminPass",
-	contentCheckEnabled: true,
-	contentCheckString: "my_string",
-	allowedHttpStatusCodes: [
+	"authEnabled": true,
+	"authUsername": "admin",
+	"authPassword": "adminPass",
+	"contentCheckEnabled": true,
+	"contentCheckString": "my_string",
+	"allowedHttpStatusCodes": [
 		200,
 		201,
 		403,
 		404
 	],
-	tlsSkipVerify: false,
-	tlsCheckCertificates: true,
-	tlsCertExpirationThreshold: 10,	  
+	"tlsSkipVerify": false,
+	"tlsCheckCertificates": true,
+	"tlsCertExpirationThreshold": 10,	  
 }
 ```
 
@@ -46,10 +46,10 @@ with example values
 ## tcp
 ```json
 {
-	id: 2,
-	target: "101.102.103.104",
-	port: 1234,
-	timeout: 5,	
+	"id": 2,
+	"target": "101.102.103.104",
+	"port": 1234,
+	"timeout": 5,	
 }
 ```
 * `timeout` is in sec
@@ -57,9 +57,9 @@ with example values
 ## icmp
 ```json
 {
-	id: 2,
-	target: "101.102.103.104",
-	timeout: 2,	
+	"id": 2,
+	"target": "101.102.103.104",
+	"timeout": 2,	
 }
 ```
 * `timeout` is in sec
