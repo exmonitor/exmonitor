@@ -2,7 +2,7 @@
 with example values
 
 ## http/https 
-```json
+```javascript
 {
 	"id": 1,
 	"port": 443,
