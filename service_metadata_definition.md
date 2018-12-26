@@ -8,6 +8,7 @@ with example values
 	"port": 443,
 	"target": "test.domain.cz",
 	"timeout": 5,
+        "proto": "http",
 	"method": "GET",
 	"query": "?var1=value1&var2=value2",
 	"postData": [
