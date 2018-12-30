@@ -1,5 +1,7 @@
 # es service_status document definition for elastic search
 
+index name: `service_status`
+
 ```json
 {
   "id" : 1,
