@@ -88,7 +88,7 @@ UNLOCK TABLES;
 
 LOCK TABLES `notify_settings` WRITE;
 /*!40000 ALTER TABLE `notify_settings` DISABLE KEYS */;
-INSERT INTO `notify_settings` VALUES (1,'dont resent notification'),(2,'resent after 10min'),(3,'resent after 20min'),(4,'resent after 30min'),(5,'resent after 60min'),(6,'resent after 120min'),(7,'resent after 240min');
+INSERT INTO `notify_settings` VALUES (1,'dont resent notification',999999),(2,'resent after 10min',10),(3,'resent after 20min',20),(4,'resent after 30min',30),(5,'resent after 60min',60),(6,'resent after 120min',120),(7,'resent after 240min',240);
 /*!40000 ALTER TABLE `notify_settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -158,4 +158,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-12-30 13:16:44
+-- Dump completed on 2018-12-31 10:39:48

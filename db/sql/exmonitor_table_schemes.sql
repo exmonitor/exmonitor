@@ -142,6 +142,7 @@ DROP TABLE IF EXISTS `notify_settings`;
 CREATE TABLE `notify_settings` (
   `id_settings` int(5) NOT NULL AUTO_INCREMENT,
   `description` varchar(50) NOT NULL,
+  `intervalMin` int(5) DEFAULT NULL,
   PRIMARY KEY (`id_settings`)
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -270,4 +271,4 @@ CREATE TABLE `users` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-12-30 13:16:23
+-- Dump completed on 2018-12-31 10:40:17
