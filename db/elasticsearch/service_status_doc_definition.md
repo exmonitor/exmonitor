@@ -5,6 +5,7 @@ index name: `service_status`
 ```json
 {
   "id" : 1,
+  "interval" : 60,
   "failThreshold" : 5,
   "duration" : 183699658,
   "message" : "success",
