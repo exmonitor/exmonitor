@@ -4,7 +4,8 @@ index name: `aggregated_service_status`
 
 ```json
 {
-  "id" : 1,
+  "id": "",
+  "service_id": 1,
   "interval" : 60,
   "avg_duration" : 183699658,
   "aggregated" : 10,
@@ -13,3 +14,5 @@ index name: `aggregated_service_status`
   "@timestamp_to" : "2018-12-30T11:57:00.208930784+01:00"
 }
 ```
+
+`id` is elastic search internal ID, its for backend service purpose only and in db it should be empty
